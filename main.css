@@ -1,0 +1,73 @@
+a.bot8 {
+  background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+        border-radius: 4px;
+    color: #555555;
+    display:block;
+        width:250px;
+        margin: 20px auto;
+    font-size: 14px;
+        text-align:center;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    padding: 4px 6px;
+    text-decoration:none;
+}
+a.bot8:hover, a.bot8:focus {
+   border-color: rgba(82, 168, 236, 0.8);
+   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+   outline: 0 none;
+}
+
+.title
+{
+  text-align: center;
+}
+
+.mainColumn
+{
+  text-align: center;
+  width: 500px;
+  border:1px solid gray;
+  border-radius: 10px;
+  margin: 0 auto; 
+}
+
+body
+{
+  font-family: Verdana;
+}
+
+.form
+{
+  display: block;
+}
+
+ul {
+    font-family: Verdana;
+}
+
+.list
+{
+  list-style-type: none;
+}
+
+.bigbtn
+{
+ font-size: large;
+}
+
+.smalbtn
+{
+  font-size: x-small;
+}
+
+.scalebtn
+{
+  width: 26px;
+  height: 26px;
+  padding: 0px 0px 0px 0px;
+}
