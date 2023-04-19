@@ -33,3 +33,16 @@ function getsum()
 
     return false;
 }
+
+function getdiff()
+{
+    var vars = new Vars();
+
+    var res1 = vars.a1 - vars.b1;
+    var res2 = vars.a2 - vars.b2;
+    var res3 = vars.a3 - vars.b3;
+
+    document.getElementById("answer").value =  "a - b = (" + res1 + ", " + res2 + ", " + res3 + ")";
+
+    return false;
+}
